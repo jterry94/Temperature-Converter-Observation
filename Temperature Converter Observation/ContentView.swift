@@ -20,7 +20,7 @@ struct ContentView: View {
             TextField("Enter temperature in °F ...", text: $myTemperatureConversions.fahrenheitString, onEditingChanged: { (changed) in
                 print("onEditingChanged - \(changed)")
             }){
-                print("Username onCommit")
+                print("onCommit")
                 
                 self.convertToC()
                 
@@ -36,7 +36,7 @@ struct ContentView: View {
             TextField("Enter temperature in °C ...", text: $myTemperatureConversions.celsiusString, onEditingChanged: { (changed) in
                 print("onEditingChanged - \(changed)")
             }){
-                print("Username onCommit")
+                print("onCommit")
                 
                 self.convertToF()
                 
